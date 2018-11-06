@@ -498,8 +498,6 @@ def main(args, fixed=True):
 def get_table(ra, dec, instrument=None, start_date=None, end_date=None, save_table=None, v3pa=None, fixed=True):
     """ getting the table.
 
-    autoreload test
-
     parameters
     ----------
     ra : str
