@@ -194,8 +194,8 @@ def main(args, fixed=True):
     print("", file=table_output)
 
 
-    if v3pa is not None:
-        pa     = float(v3pa) * D2R
+    if args.v3pa is not None:
+        pa     = float(args.v3pa) * D2R
     print("Checked interval [{}, {}]".format(Time(search_start, format='mjd', out_subfmt='date').isot,
         Time(search_start+span, format='mjd', out_subfmt='date').isot), file=table_output)
     if pa == "X":
